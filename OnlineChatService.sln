@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineChatService.Menu", "OnlineChatService.Menu\OnlineChatService.Menu.csproj", "{1470383C-A785-425B-8D86-A8C724B3F238}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineChatService.Data", "OnlineChatService.Data\OnlineChatService.Data.csproj", "{50A9883B-F7FE-4E03-97D9-DEE1ED923C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineChatService.Data", "OnlineChatService.Data\OnlineChatService.Data.csproj", "{50A9883B-F7FE-4E03-97D9-DEE1ED923C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineChatService.Domain", "OnlineChatService.Domain\OnlineChatService.Domain.csproj", "{DE95F226-6434-444C-BA11-A97F446B2DF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineChatService.Domain", "OnlineChatService.Domain\OnlineChatService.Domain.csproj", "{DE95F226-6434-444C-BA11-A97F446B2DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineChatService.Service", "OnlineChatService.Service\OnlineChatService.Service.csproj", "{64C7ED91-BCB2-4628-8244-6794E4D91AAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineChatService.Service", "OnlineChatService.Service\OnlineChatService.Service.csproj", "{64C7ED91-BCB2-4628-8244-6794E4D91AAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineChatService.Model", "OnlineChatService.Model\OnlineChatService.Model.csproj", "{E089391E-2C67-485C-A09A-FB18DA9BD203}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineChatService.Model", "OnlineChatService.Model\OnlineChatService.Model.csproj", "{E089391E-2C67-485C-A09A-FB18DA9BD203}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineChatService.UI", "OnlineChatService.UI\OnlineChatService.UI.csproj", "{DB8C3ACC-2BA0-4329-BE29-AAA8DD8BEA30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1470383C-A785-425B-8D86-A8C724B3F238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1470383C-A785-425B-8D86-A8C724B3F238}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1470383C-A785-425B-8D86-A8C724B3F238}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1470383C-A785-425B-8D86-A8C724B3F238}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50A9883B-F7FE-4E03-97D9-DEE1ED923C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50A9883B-F7FE-4E03-97D9-DEE1ED923C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50A9883B-F7FE-4E03-97D9-DEE1ED923C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{E089391E-2C67-485C-A09A-FB18DA9BD203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E089391E-2C67-485C-A09A-FB18DA9BD203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E089391E-2C67-485C-A09A-FB18DA9BD203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8C3ACC-2BA0-4329-BE29-AAA8DD8BEA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8C3ACC-2BA0-4329-BE29-AAA8DD8BEA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8C3ACC-2BA0-4329-BE29-AAA8DD8BEA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8C3ACC-2BA0-4329-BE29-AAA8DD8BEA30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
